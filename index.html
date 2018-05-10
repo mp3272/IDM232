@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<title>Recipe Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+
+<body>
+
+<div class='navmenu'>
+   <form id='search-form'>
+<input placeholder='Search here...' size='15' type='text'/>
+<input id='button-submit' type='submit' value='Search'/>
+        </form>
+    <span id='menu'><img src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAC9JREFUeNpi/P//PwM1AQsQU9VEJgYqg8FvICgMGUeel0eTzWiyGU02Qz/ZAAQYAOPcBjEdYroKAAAAAElFTkSuQmCC'  /></span>
+    <nav id='navbar'>
+    <ul class='navbar'>
+        <li><a href='#'>Home</span></a></li>
+        <li><a href='#'>News/Hints &amp; Tips</span></a></li>
+        <li id='sub-menu'><a href="#">Filters</span>
+
+                <ul class="sub-menu">
+        <li><a href='#'>Breakfast</span></a></li>
+        <li><a href='#'>Lunch</span></a></li>
+        <li><a href='#'>Dinner</span></a></li>
+      </ul>
+    </li>
+        
+          <li><a href='#footer'>Contact Us</span></a></li>
+             </ul>
+</nav>
+</div>
+
+<div style='clear: both;'/>
+
+
+
+<!-- First Parallax Image with Logo Text -->
+<div class="parallax1" id="home">
+  </div>
+
+  <div  id="portfolio">
+  <h3 class="w3-center">Feautred recipes</h3>
+  <p class="w3-center"><em>Here are some of this week's featured recipes:</p><br>
+
+  <div class="grid">
+  <div class="card">
+  <img src="images/burger.jpg" alt="John" style="width:100%">
+  <h4>Cheese Burger</h4>
+  
+  
+ <button><a href="index - Copy.html">Read more</button></a>
+</div>
+<div class="card">
+  <img src="images/burger.jpg" alt="John" style="width:100%">
+  <h4>Cheese Burger</h4>
+  
+  
+ <button><a href="index - Copy.html">Read more</button></a>
+</div>  
+<div class="card">
+  <img src="images/burger.jpg" alt="John" style="width:100%">
+  <h4>Cheese Burger</h4>
+  
+  
+ <button><a href="index - Copy.html">Read more</button></a>
+</div>
+ <div class="card">
+  <img src="images/burger.jpg" alt="John" style="width:100%">
+  <h4>Cheese Burger</h4>
+  
+  
+ <button><a href="index - Copy.html">Read more</button></a>
+</div>
+ <div class="card">
+  <img src="images/burger.jpg" alt="John" style="width:100%">
+  <h4>Cheese Burger</h4>
+  
+  
+ <button><a href="index - Copy.html">Read more</button></a>
+</div>
+  <div class="card">
+  <img src="images/burger.jpg" alt="John" style="width:100%">
+  <h4>Cheese Burger</h4>
+  
+  
+ <button><a href="index - Copy.html">Read more</button></a>
+</div>
+</div>
+<br><br>
+<h3>Today's featured breakfast:</h3>
+<div class="about" id="about">
+
+
+<div class="col-1">
+  <img id="pbnj" src="images/pbnj.jpg">
+</div>
+
+<div class="col-3 right">
+  <div class="aside">
+    <h2>Ingredients</h2>
+    <p>Cheese</p>
+        <p>Bread</p>
+    <p>Butter</p>
+    <p>Jelly</p>
+  </div>
+</div>
+
+<div class="col-2">
+  <h2>Peanut butter and jelly</h2>
+  <p>Heat griddle or skillet to 350 degrees F (175 degrees C).
+Spread butter on one side of each slice of bread. Spread peanut butter on unbuttered side of one slice of bread, and jelly on the other. Place one slice, buttered side down on the griddle. Top with other slice, so that peanut butter and jelly are in the middle. Cook for 4 minutes on each side, or until golden brown, and heated through.  </p>
+</div>
+
+
+</div>
+
+
+
+
+
+<br><br>
+  
+
+<footer id="footer">
+  <a id="top" href="#home"><i class="fa fa-arrow-up" id="top"></i>To the top</a><br>
+  <div class="soc">
+     <a href="https://www.facebook.com/meet.palan.98" class="w3-bar-item w3-button"target="_blank"><i class="fa fa-facebook-official"></i></a>
+  <a href="https://www.instagram.com/meet.p98/" class="w3-bar-item w3-button"target="_blank"><i class="fa fa-instagram"></i></a>
+  <a href="https://www.linkedin.com/in/meet-palan-a0606912b/" class="w3-bar-item w3-button"target="_blank"><i class="fa fa-linkedin"></i></a>
+</div>
+  <p>Designed by Meet Palan</p>
+</footer>
+
+
+ 
+
+
+</body>
+</html>
+<script type="text/javascript"> //just one small script so no new js document
+document.getElementById('menu').addEventListener('click', function () {
+        var nav = document.getElementsByTagName('nav')[0];
+        if (nav.style.display == 'block') {
+            nav.style.display = 'none';
+        } else {
+            nav.style.display = 'block';
+        }
+    }, false);
+</script>
