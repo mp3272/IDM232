@@ -1,0 +1,434 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.4;
+}
+
+
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.parallax1 {
+    /* The image used */
+    background-image: url("images/food.jpg");
+
+    
+    min-height: 500px; 
+
+    /*to create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+
+.parallax1>img{
+  width: 100%;
+}
+
+.parallaxBurger{
+ background-image: url("images/burger.jpg");
+
+    
+    min-height: 500px; 
+
+    /*to create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+
+
+
+}
+
+.parallaxBurger>img{
+  width: 100%;
+}
+
+
+h1{
+  display: flex;
+ justify-content: center;
+}
+.parallax2 {
+    /* The image used */
+    background-image: url("images/gardyloo.jpg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+html {
+    font-family: "helvetica neue", sans-serif;
+}
+
+.
+}
+
+span {
+    color: #54D17A;
+}
+
+
+/* CSS Main Menu */
+.navmenu{width:100%;background:#303030;display:inline-block}
+#menu{color:#fff;font-size:18px;position:relative;top:5px;font-weight:500;cursor:pointer;padding-left:10px;line-height:2.2em}
+#menu a{text-decoration:none}
+nav{display:none}
+nav ul{list-style-type:none;padding-left:0;font-size:0;background-color:#303030}
+nav li{display:block;font-size:16px;color:white}
+ul.navbar>li>a{color:#fff}
+ul.navbar>li>a:hover{color:green}
+nav a{display:block;padding:10px;text-decoration:none;color:inherit}
+/*==Dropdown Menu==*/
+.sub-menu li{list-style-type:none;display:inline-block}
+ul.navbar li ul.sub-menu{display:none;position:absolute}
+ul.navbar li{position:relative}
+ul.navbar li:hover ul.sub-menu{display:block}
+.sub-menu li{margin-left:0!important}
+ul.sub-menu>li>a{color:#fff}
+ul.sub-menu>li>a:hover{color:green; cursor: pointer;}
+@media screen and (max-width:720px){nav ul{width:100%!important}#sub-menu{display:none} nav a{padding:5px 10px}
+}
+@media screen and (min-width:720px){#menu{display:none}nav{display:block!important}nav li{display:inline-block}}
+/*----- Search -----*/
+#search-form{display:inline-block;padding-top:4px;padding-right:5px;float:right}
+#search-form input{width:200px;height:30px;padding:0 8px;float:left;border-radius:2px 0 0 2px;font-size:13px;margin:0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;border:0;font-size:100%;font:inherit}
+#button-submit{width:auto!important;height:30px;padding:0 8px;float:right;border-radius:0 2px 2px 0;background:#66a992;font-size:13px;font-weight:600;text-shadow:0 1px 0 rgba(0,0,0,0.3);color:#fff}
+@media screen and (max-width:480px){.toggle-nav{padding:6px 10px}#search-form input{width:150px}}
+/* <----Finish menu */
+
+.about{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    justify-content: space-between;
+    margin: 2rem;
+  }
+
+  #pbnj{
+    width: 300px;
+    height: 250px;
+    padding-top: 30px;
+  }
+
+  .col-2{
+width: 50%;
+  }
+
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .about{
+      display: flex;
+      flex-direction: column;
+
+    }
+  }
+
+    @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .col-2{
+      width: 100%;
+    }
+  }
+     
+      @media (max-width:1400px) and (min-width:768px){
+        .col-2{
+          width: 50%;
+          padding-left: 4rem;
+        }
+        .col-3{
+          width: 50%;
+           padding-left: 4rem;
+        }
+      } 
+
+    
+
+    
+
+
+h3{
+  display: flex;
+justify-content: center;
+}
+
+#portfolio{
+    margin: 2rem;
+}
+
+.grid { 
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+  align-items: center;
+  }
+
+ .card{
+
+ } 
+
+.grid img {
+    
+  max-width: 100%;
+}
+
+#contact{
+margin-left: 2rem;
+}
+
+    
+ 
+
+#submit{
+  height: 1.5rem;
+}
+
+#footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 1rem;
+  justify-content: space-between;
+}
+
+
+ 
+
+ #aside{
+  width: 100%;
+ }
+ 
+ 
+
+
+
+ .grid>img{
+  height: 12rem;
+  justify-content: space-between;
+
+}
+
+#myImg:hover{
+  transform: scale(1.5);
+}
+
+button{
+  height: 40%;
+}
+
+#contact{
+  
+display: flex;
+
+  align-items: center;
+  justify-content: center;
+flex-direction: column;
+}
+
+#top{
+  color: #54D17A;
+}
+
+.soc{
+  display: flex;
+  justify-content: center;
+}
+
+.soc>a{
+  margin: 1rem;
+  color: #54D17A;
+font-size: 2rem;
+}
+
+ .main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    
+    word-break: break-all;
+}
+
+.row {
+    margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: white;
+    padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+    .recipe{
+  display: flex;
+  flex-direction: row;
+}   
+}
+
+.recipe{
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+
+.bgimg {
+    background-image: url('images/burger.jpg');
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 25px;
+}
+
+.topleft {
+    position: absolute;
+    top: 0;
+    left: 16px;
+}
+
+.bottomleft {
+    position: absolute;
+    bottom: 0;
+    left: 16px;
+}
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+hr {
+    margin: auto;
+    width: 40%;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+#results{
+  padding: 2rem;
+}
+
+#search{
+  color: gray;
+  font-weight: bold;
+  padding: 2rem;
+}
+#link{
+color: black;
+}
+@media screen and (min-width: 900px) {
+ 
+.directions{
+max-width: 70%;
+}
